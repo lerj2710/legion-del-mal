@@ -9,7 +9,7 @@
 ![Licencia](https://img.shields.io/github/license/lerj2710/legion-del-mal)
 
 # 🦹‍♂️ La Legión del Mal !!! - Desde local
-
+### Este es un grupo para aprender Git mas GitHub
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
 
