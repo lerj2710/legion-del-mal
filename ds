@@ -1,0 +1,82 @@
+*   [33m06588e6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrama-spiderman-informacion[m[33m)[m feat: agregar informacion close #5 y #7
+[31m|[m[32m\[m  
+[31m|[m [32m|[m * [33m7f058c3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #8 from lerj2710/rama-spiderman
+[31m|[m [32m|[m[31m/[m[32m|[m 
+[31m|[m[31m/[m[32m|[m[32m/[m  
+[31m|[m * [33m5db0cdd[m[33m ([m[1;31morigin/rama-spiderman[m[33m)[m feat: agregar informacion close #6
+[31m|[m[31m/[m  
+*   [33m1b02c93[m Merge pull request #3 from lerj2710/rama-nuevo-plan
+[35m|[m[36m\[m  
+[35m|[m * [33ma6a5e38[m[33m ([m[1;31morigin/rama-nuevo-plan[m[33m)[m fix: acomodando quienes somos
+[35m|[m * [33m3a15e37[m fix actualizar grupo
+[35m|[m * [33m2ca8ec3[m fix actualizar grupo
+[35m|[m[35m/[m  
+*   [33m6f8d1d5[m Merge pull request #2 from lerj2710/rama-cambios-readme
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33ma047623[m[33m ([m[1;31morigin/rama-cambios-readme[m[33m)[m docs: agregar descripcion
+[1;31m|[m [1;32m|[m * [33m663ab19[m[33m ([m[1;35mrefs/stash[m[33m)[m WIP on rama-cambios-readme: 28b0098 docs: actualizar nombre de grupo
+[1;31m|[m [1;32m|[m[1;32m/[m[1;34m|[m 
+[1;31m|[m [1;32m|[m * [33md508b41[m index on rama-cambios-readme: 28b0098 docs: actualizar nombre de grupo
+[1;31m|[m [1;32m|[m[1;32m/[m  
+[1;31m|[m * [33m28b0098[m docs: actualizar nombre de grupo
+[1;31m|[m[1;31m/[m  
+* [33m94add36[m docs: actualizacion de titulo!!
+* [33mfcd5909[m github: Delete miembros/flash-reverso.yml
+* [33m4b4d5e3[m Add historia section to flash-reverso.yml
+* [33m311f669[m github: Add flash-reverso.md with initial content
+*   [33m8c01593[m Merge pull request #1 from lerj2710/lerj2710-patch-1
+[1;35m|[m[1;36m\[m  
+[1;35m|[m * [33mf66bdb0[m Revise project title in README
+[1;35m|[m[1;35m/[m  
+* [33m909a069[m fix: agregar prueba
+* [33m4733565[m fix: correciones quienes somos remoto y local
+* [33m0187230[m docs: Actulizas quienes somos remoto
+* [33m61b7889[m fix: resolver conflicto entre remoto y local
+* [33mf726128[m fix: update readme.md con repo remoto
+* [33mccb1be8[m chore: agregar línea en blanco para mejorar la legibilidad del README
+* [33m4fef448[m docs: Agregar los sheild.io badges
+* [33m9adda7e[m docs: Agregar LICENSE MIT
+* [33m9e79557[m feat: Actualizar planes de congelear y control
+* [33mab01594[m feat: agregar pasos para el plan de control mental
+* [33md97633a[m feat: agregar pasos para congelar Metropolis
+* [33mfa17510[m feat: agregar planes de congelar y control mental
+* [33m3d86211[m docs: actualizar estructura de la organización
+* [33m6c3f1cf[m docs: actualizar consejo de villanos!!
+* [33meea74ef[m docs: actualizar README.md con instrucciones
+* [33m2e605a1[m docs: agregar nuevas misiones
+* [33m435b3b6[m feat: agregar base mar rojo
+* [33m38e34e2[m docs: actualizar contacto
+*   [33m9a2e853[m[33m ([m[1;33mtag: [m[1;33mv1.0.0[m[33m)[m fix: resolver conflicto - unir rama-conflicto con main
+[31m|[m[32m\[m  
+[31m|[m * [33mf64af7f[m feat: agregar coordenadas actualizar proyecto krypton a v2.0
+* [32m|[m [33mb48e338[m chore: actualizar proyecto krypton a v3.0
+[32m|[m[32m/[m  
+*   [33m7e99e5c[m Merge branch 'rama-nuevos-villanos'!!!
+[33m|[m[34m\[m  
+[33m|[m * [33m8147d82[m feat: agregar Darksied
+[33m|[m * [33mbc5d5cc[m docs: actualizar docs
+* [34m|[m [33m0afe913[m feat: agregar dispositivo
+[34m|[m[34m/[m  
+* [33m4f54c1c[m[33m ([m[1;33mtag: [m[1;33mv0.1.0[m[33m)[m feat: agregar Joke y Harley Quinn
+* [33meadab38[m feat: agregar villanos
+* [33med0c833[m docs: agregar .env.example y server.log
+* [33m011b9b7[m fix: corregir reglas de .gitignore
+* [33m4634474[m feat: eliminar super-suero
+* [33m0bbda46[m chore: agregar conclusión
+* [33mcd77dd1[m fix: renombrar robo-banco-mundial a robo-banco-metropolis
+* [33m53a5e62[m fix: cambiar nombre de salvar-mundo.md a destruir-mundo.md
+* [33m1744d06[m feat: agregar nuevos pasos
+* [33m1858d0f[m feat: agregar salvar-mundo.md
+* [33m8c31dd3[m feat: agregar plan super-suero.md + descripción
+* [33m253fef0[m docs: agregar al Green Goblin
+* [33m3a80063[m feat: agregar gitignore
+* [33mcbb66f4[m feat: agregar planes
+* [33mbd0a175[m feat: agregar miembros
+* [33m65cdf2d[m feat: agregar perdedores
+* [33mc7f1afb[m feath: agregar guaridas
+* [33mb4b79e4[m feat: agregar misiones.yaml
+* [33m7488927[m docs: instrucciones actualizadas con la nueva organización
+* [33mb471b65[m docs: agregar a Thanos y Magneto
+* [33m2b3a43a[m docs: agregar al Joker
+* [33mbc780d9[m docs: añadir miembros al README
+* [33mc167d23[m first commit
