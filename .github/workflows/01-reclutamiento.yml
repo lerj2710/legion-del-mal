@@ -1,43 +1,43 @@
 name: Reclutamiento de agente
 
-on:  push
+on:
+  push:
 
-jobs: 
-    reporte-de-reclutamiento:
-        runs-on: ubuntu-latest
+jobs:
+  reporte-de-reclutamiento:
+    runs-on: ubuntu-latest
 
-        steps:
-          - name: Agente se presenta
-            run: echo "Hola, soy Lex Lutor el reclutador de la lengion del mal."
+    steps:
+      - name: Agente se presenta
+        run: echo "Hola, soy Lex Lutor el reclutador de la legión del mal."
 
-          - name: Reporte de Identidad
-            run: |
-              echo "Nombre: Lex Lutor"
-              echo "==================="
-              echo ""
-              echo "Nombre clave ${{ github.actor }}"
-              echo ""
-              echo "Conesto de github"
-              echo "Repo: ${{ github.repository }}"
-              echo "Operacion: ${{ github.sha }}"                
-              echo 'MetaData: ${{ toJson(github) }}'          
-              echo ""
-              echo "Edad: 45"
-              echo "Poderes: Genio, riqueza, manipulación"
-              echo "Objetivo: Reclutar a los mejores agentes para la legión del mal."
+      - name: Reporte de Identidad
+        run: |
+          echo "Nombre: Lex Lutor"
+          echo "==================="
+          echo ""
+          echo "Nombre clave: ${{ github.actor }}"
+          echo ""
+          echo "Contexto de github"
+          echo "Repo: ${{ github.repository }}"
+          echo "Operacion: ${{ github.sha }}"
+          echo 'MetaData: ${{ toJson(github) }}'
+          echo ""
+          echo "Edad: 45"
+          echo "Poderes: Genio, riqueza, manipulación"
+          echo "Objetivo: Reclutar a los mejores agentes para la legión del mal."
 
-          - name : Capacidades del agetne
-            run: |
-              echo "Capacidades Detectada:"
-              echo "1. Inteligencia superior"
-              echo "2. Estratega maestro"
-              echo "3. Recursos ilimitados"
-              echo "4. Manipulación y persuasión"
-              node --version
-              echo "5. Experiencia en combate y tecnología avanzada"
+      - name: Capacidades del agente
+        run: |
+          echo "Capacidades detectadas:"
+          echo "1. Inteligencia superior"
+          echo "2. Estratega maestro"
+          echo "3. Recursos ilimitados"
+          echo "4. Manipulación y persuasión"
+          node --version
+          echo "5. Experiencia en combate y tecnología avanzada"
 
-          - name: Reconocimiento del terreno
-            run: |
-              echo "Reconociendo el terreno de reclutamiento..."
-              ls / 
-           
+      - name: Reconocimiento del terreno
+        run: |
+          echo "Reconociendo el terreno de reclutamiento..."
+          ls /
