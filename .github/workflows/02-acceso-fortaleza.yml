@@ -10,9 +10,12 @@ jobs:
     steps:
       - name: El agente llega a la fortaleza
         run: |
-            echo "Agente ${{ github.actor }} ha llegado a la fortaleza prohibida."
-            echo ""
-            echo "busca archivos secretos y pistas para completar su misión."
-            echo "He llegado a la fortaleza prohibida para continuar con mi misión."
-            ls -la 
-            echo ""
+        
+      - name: 'Brainiac desbloquea la puerta secreta'
+        uses: actions/checkout@v4
+
+      - name: 'Ahora, si vamos a ver los planes'
+        run: |
+            echo "Buscar planes secretos en la fortaleza..."
+            ls -la
+            echo "Accediendo a los planes secretos de la fortaleza prohibida..."
