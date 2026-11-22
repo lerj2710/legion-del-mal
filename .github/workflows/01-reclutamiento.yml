@@ -19,8 +19,8 @@ jobs:
               echo ""
               echo "Conesto de github"
               echo "Repo: ${{ github.repository }}"
-              echo "Operacion: $${{ github.sha }}"
-              echo "MetaData: $${{ toJson(github) }}"
+              echo "Operacion: ${{ github.sha }}"                
+              echo 'MetaData: ${{ toJson(github) }}'          
               echo ""
               echo "Edad: 45"
               echo "Poderes: Genio, riqueza, manipulación"
