@@ -16,6 +16,7 @@ on:
         description: 'Mensaje a enviar al consejo'
         required: true
         type: string
+        default: 'La mision fue exitosa, el mundo es nuestro'
 
       cow_charater:
         description: 'Personaje'
