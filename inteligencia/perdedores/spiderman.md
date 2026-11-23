@@ -91,3 +91,9 @@ Mapear zonas frecuentes de ataque en la ciudad (ej. laboratorios Oscorp, bancos,
 Simbiontes (Venom, Carnage): Altamente vulnerables a ondas sónicas de alta frecuencia y al fuego/calor intenso.
 
 Enemigos elementales (Sandman, Hydro-Man, Electro): Analizar formas de alterar su estado físico (agua, calor extremo, aislamiento eléctrico).
+
+
+## Estrategia recomendada
+
+
+se recomienda 
