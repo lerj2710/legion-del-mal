@@ -1,0 +1,30 @@
+
+name: Comunicador de la legión del mal
+
+
+on:
+  workflow_dispatch:
+    inputs:
+      villano:
+        description: 'Que villano envia el mensaje'
+        required: true
+        type: 'choice'
+        options:
+          - Lex Lutor
+          - Jocker
+          - Magnecto
+
+
+
+jobs:
+
+  trasmitir-mensaje:
+      runs-on: ubuntu-latest
+   
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+     
