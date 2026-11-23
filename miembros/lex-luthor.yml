@@ -5,7 +5,7 @@
 nombre: "Lex Luthor"
 universo: DC
 rango: "Líder Supremo"
-estado: activo
+estado: inactivo
 
 perfil:
   identidad_publica: "CEO de LexCorp, multimillonario, filántropo (según él)"
