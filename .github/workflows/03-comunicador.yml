@@ -17,6 +17,17 @@ on:
         required: true
         type: string
 
+      cow_charater:
+        description: 'Personaje'
+        required: true
+        type: choice
+        options:
+          - eyes
+          - ghostbusters
+          - dragon
+          - tux
+          - fox
+
       prioridad:
         description: 'Nivel de Prioridad del mensaje'
         required: true
