@@ -1,4 +1,3 @@
-
 name: Comunicador de la legión del mal
 
 
@@ -8,11 +7,25 @@ on:
       villano:
         description: 'Que villano envia el mensaje'
         required: true
-        type: 'choice'
+        type: choice
         options:
           - Lex Lutor
           - Jocker
           - Magnecto
+      mensaje:
+        description: 'Mensaje a enviar al consejo'
+        required: true
+        type: string
+
+      prioridad:
+        description: 'Nivel de Prioridad del mensaje'
+        required: true
+        type: choice
+        options:
+          - Normal
+          - Media
+          - Alta
+          - Critica
 
 
 
@@ -20,11 +33,14 @@ jobs:
 
   trasmitir-mensaje:
       runs-on: ubuntu-latest
-   
-  build:
-    runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+      steps:
+       #- uses: actions/checkout@v4
+       
+        - name: Imprimir  mensaje al consejo
+          run: |
+            echo "El villano ${{ github.event.inputs.villano }} ha enviado el siguiente mensaje al consejo de la legión del mal:"
+            echo "${{ github.event.inputs.mensaje }}"
+            echo "Nivel de prioridad: ${{ github.event.inputs.prioridad }}"
 
      
