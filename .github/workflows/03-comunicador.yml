@@ -35,12 +35,25 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-       #- uses: actions/checkout@v4
-       
+        - name: Instalar trasmisor de la legion
+          run: sudo apt-get install -y cowsay
+
+       #- uses: actions/checkout@v4       
         - name: Imprimir  mensaje al consejo
           run: |
-            echo "El villano ${{ github.event.inputs.villano }} ha enviado el siguiente mensaje al consejo de la legión del mal:"
-            echo "${{ github.event.inputs.mensaje }}"
-            echo "Nivel de prioridad: ${{ github.event.inputs.prioridad }}"
+            echo "=================================================="
+            echo " Trasmitiendo mensaje al consejo de villanos     "
+            echo "=================================================="       
+            echo " "     
+            echo "De: ${{ github.event.inputs.villano }}"     
+            echo " "     
+            echo "fecha: $(date +'%d/%m/%Y %H:%M:%S')"     
+            echo "------- Mensaje-------"      
+            echo " " 
+            cowsay -f eyes ${{ github.event.inputs.mensaje }}    
+            echo " "     
+            echo " "   
+            echo " ${{ github.event.inputs.villano }}"  
+            echo " "     
 
      
